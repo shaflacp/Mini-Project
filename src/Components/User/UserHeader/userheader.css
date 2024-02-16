@@ -1,0 +1,48 @@
+
+.nav-list {
+    padding: 10px 5px; 
+    display: flex;
+    align-items:center;
+    margin-right: 990px; 
+    margin-left: 10px;
+    position: absolute; 
+
+  }
+  .brandname h1{
+    margin: 0;
+
+  }
+  .nav-list li a{
+    text-decoration: none;
+    color:#080b09; 
+
+  }
+
+
+  .nav-list li {
+    display: inline-block; 
+    margin-right: 20px; 
+
+  }
+  .nav-list :hover {
+
+    background-color:#b7c3bd; 
+    
+    box-sizing: 2px 2px;
+  }
+  .img {
+    float: right;
+    max-width: 100%;
+    max-height: 100%;
+  
+  }
+  h1 {
+    text-align: center;
+    border: 1px solid black; /* Border style */
+    padding: 10px; 
+    background-color: lightgray;
+    
+  }
+  
+
+
