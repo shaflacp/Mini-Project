@@ -6,6 +6,7 @@
     margin-right: 990px; 
     margin-left: 10px;
     position: absolute; 
+    color: white;
 
   }
   .brandname h1{
@@ -14,7 +15,8 @@
   }
   .nav-list li a{
     text-decoration: none;
-    color:#080b09; 
+    color:#eef4f0; 
+    font-weight: bold;
 
   }
 
@@ -30,19 +32,21 @@
     
     box-sizing: 2px 2px;
   }
-  .img {
-    float: right;
-    max-width: 100%;
-    max-height: 100%;
+  .sp {
+    float: top;
+    width: 1300px;
+    height: 600px;
   
   }
   h1 {
     text-align: center;
+    color: white;
     border: 1px solid black; /* Border style */
     padding: 10px; 
-    background-color: lightgray;
+    background-color:black
     
   }
+  
   
 
 
