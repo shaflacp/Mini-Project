@@ -1,52 +1,26 @@
 
-.nav-list {
-    padding: 10px 5px; 
-    display: flex;
-    align-items:center;
-    margin-right: 990px; 
-    margin-left: 10px;
-    position: absolute; 
-    color: white;
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
 
-  }
-  .brandname h1{
-    margin: 0;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 
-  }
-  .nav-list li a{
-    text-decoration: none;
-    color:#eef4f0; 
-    font-weight: bold;
+li {
+  display: inline;
+  margin-right: 20px;
+}
 
-  }
+a {
+  color: white;
+  text-decoration: none;
+}
 
-
-  .nav-list li {
-    display: inline-block; 
-    margin-right: 20px; 
-
-  }
-  .nav-list :hover {
-
-    background-color:#b7c3bd; 
-    
-    box-sizing: 2px 2px;
-  }
-  .sp {
-    float: top;
-    width: 1300px;
-    height: 600px;
-  
-  }
-  h1 {
-    text-align: center;
-    color: white;
-    border: 1px solid black; /* Border style */
-    padding: 10px; 
-    background-color:black
-    
-  }
-  
-  
-
-
+a:hover {
+  color: #ffcc00; /* Change color on hover */
+}

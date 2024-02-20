@@ -17,6 +17,7 @@ function UserRouter() {
       <Route path="/product/:productId" component={ProductDetailsPage} />
       <Route path="/cart" component={CartPage} />
     </Switch>
+  
   </Router>
 );
 }

@@ -1,36 +1,28 @@
 import React from 'react';
-import { BrowserRouter as  Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Navbar from './Navbar';
+import Home from './Home';
+import About from './About';
+import Login from './Login';
+import Signup from './Signup';
 import './userheader.css';
-// import Loginpage from './Loginpage'; // Import your login page component
 
-function UserHeader() {
+
+
+const App = () => {
   return (
-    // <Router>
-      <div className='brandname'>
-        <div className='navbar'>
-        </div>
-        <nav>
-          <ul className='nav-list'>
-            <li><Link to="/collections">HOME</Link></li>
-            <li><Link to="/contact">ABOUT</Link></li>
-            <li><Link to="/login">LOGIN</Link></li>
-            <li><Link to="/signup">SIGNUP</Link></li>
-          </ul>
-        </nav>
-        <div className="container">
-          <h1>F A S H I O N</h1>
-          <img className="sp" src=".\sp.jpg" alt="sp"/>
-          <button className="see-more-button">See More</button>
-        </div>
-
-        {/* Define routes */}
-        <switch>
-          {/* <Route path="/login" component={Loginpage} /> */}
-          {/* Define other routes */}
-        </switch>
+    <Router>
+      <div>
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/login" component={Login} />
+          <Route path="/signup" component={Signup} />
+        </Switch>
       </div>
-    // </Router>
-  )
-}
+    </Router>
+  );
+};
 
-export default UserHeader;
+export default App;
