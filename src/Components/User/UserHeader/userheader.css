@@ -1,26 +1,36 @@
-
-nav {
-  background-color: #333;
-  padding: 10px 0;
+.user-header {
+  background-color: #f1f1f1; /* Background color for the navbar */
+  padding: 10px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+.user-header h1 {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  margin-left: 20px; /* Adjust the margin to position the heading */
+  margin-top: -5%;
+  font-weight: 300;
 }
 
-li {
+.user-header ul {
+  position: absolute; /* Set the unordered list position to absolute */
+  top: 20px; /* Position the list at the top of the container */
+  left: 60%; /* Position the list at the left of the container */
+  z-index: 1; /* Ensure the list is on top of other elements */
+}
+
+.user-header ul li {
   display: inline;
-  margin-right: 20px;
+  margin-left: 50px; /* Adjust spacing between items */
 }
 
-a {
+.user-header ul li:first-child {
+  margin-left: 0; /* Remove left margin for the first item */
+}
+
+.user-header ul li a {
   color: white;
   text-decoration: none;
 }
 
-a:hover {
-  color: #ffcc00; /* Change color on hover */
+.user-header ul li a:hover {
+  color:rgb(244, 239, 239)
 }

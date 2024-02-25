@@ -1,11 +1,11 @@
 import React from 'react'
-import UserHeader from '../../Components/User/UserHeader/UserHeader'
+// import UserHeader from '../../Components/User/UserHeader/UserHeader'
 
 
 function UserHome() {
   return (
     <div>
-        <UserHeader/>
+        {/* <UserHeader/> */}
 
     </div>
   )

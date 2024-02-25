@@ -1,28 +1,23 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navbar from './Navbar';
-import Home from './Home';
-import About from './About';
-import Login from './Login';
-import Signup from './Signup';
 import './userheader.css';
 
-
-
-const App = () => {
+const UserHeader = () => {
   return (
-    <Router>
-      <div>
-        <Navbar />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/login" component={Login} />
-          <Route path="/signup" component={Signup} />
-        </Switch>
-      </div>
-    </Router>
+    <div>
+    <nav className="user-header">
+      <h1>The Boutique Store For Plants!</h1> {/* Added side heading */}
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Signup</a></li>
+
+      </ul>
+    </nav>
+    
+    </div>
+    
   );
 };
 
-export default App;
+export default UserHeader;

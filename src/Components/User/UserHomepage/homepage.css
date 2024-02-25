@@ -1,6 +1,114 @@
-.sp {
-    float: top;
-    width: 130px;
-    height: 600px;
+.container {
+  position: relative;
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Align items to the center */
+}
+
+h1 {
+  position: absolute;
+  color: white; /* Adjust text color */
+  font-size: 4rem; /* Increase font size */
+  z-index: 1; /* Ensure the heading is above the image */
+  text-align: center;
+  top: 50%; /* Position the heading vertically centered */
+  left: 50%; /* Position the heading horizontally centered */
+  transform: translate(-50%, -50%); /* Center the heading */
+}
+
+
+.green2 {
+  width: 100%; /* Make the image fill the container */
+  height: 100%; /* Make the image fill the container */
+  object-fit: cover; /* Cover the whole container */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.see-more-button {
+  position: absolute;
+  bottom: 50px;
+  left: 50%; /* Center the button horizontally */
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: rgb(54, 156, 197); /* Button background color */
+  color:white; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  z-index: 1; /* Ensure the button is above the image */
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.see-more-button:hover {
+  background-color: skyblue; /* Adjust hover background color */
+}
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.feature {
+  flex-basis: calc(20% - 20px);
+  margin: 20px;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  text-align: center;
+}
+
+.feature h2 {
+  font-size: 1.5em;
+}
+
+.feature p {
+  font-size: 1em;
+}
+.plants-container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  background-color: #f0f0f0; /* Set background color */
+  padding: 20px; /* Add padding for better spacing *
   
-  }
+/* }
+
+.plants-container > a {
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  color: #000; Set link color */
+}
+/* .plants-container > a{
+  position: relative;
+  text-align: center;
+  text-decoration: none; */
+/* } */
+.plants-container > a:hover {
+  transform: scale(1.05);
+  color: black;
+  
+}
+
+.plants-container img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.plants-container h2 {
+  margin-top: 10px; /* Adjust the distance between image and heading */
+  position: relative;
+  color: black;
+  
+}
+
+.bonsai img{
+  margin-top: -1px;
+  height: 290px;
+}
