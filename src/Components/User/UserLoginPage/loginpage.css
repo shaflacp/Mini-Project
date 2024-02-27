@@ -1,56 +1,51 @@
-/* loginPage.css */
-
-.login-container {
-  max-width: 400px;
+.login {
+  max-width: 300px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc; /* Adjust border width here */
+  border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #f9f9f9;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-  
-
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* body{
+  background-image: url(pln.jpg);
+} */
+    
+h2{
+  text-align: left;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
 }
 
-.login-container h2 {
-  text-align: center;
-}
-
-.login-form {
-  width: 100%;
-  max-width: 300px;
-}
-
-.form-group {
-  margin-bottom: 15px;
-}
-
-.form-group label {
-  font-weight: bold;
-}
-
-.form-group input {
-  width: 100%;
+input {
+  width: 20%;
   padding: 8px;
-  border: 1px solid #ccc; /* Adjust border width here */
-  border-radius: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
 }
 
-button[type="submit"] {
-  width: 100%;
-  padding: 10px;
+select {
+  width: 20%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
   border: none;
-  border-radius: 5px;
-  background-color: #007bff;
-  color: #fff;
+  border-radius: 3px;
   cursor: pointer;
 }
 
-button[type="submit"]:hover {
-  background-color: #0056b3;
+button:hover {
+  background-color: #064506;
+}
+
+p {
+  color: red;
+  margin-top: 10px;
 }

@@ -3,6 +3,7 @@
 import React from 'react';
 import './homepage.css';
 import UserHeader from '../UserHeader/UserHeader';
+import Footer from '../UserFooter/Footer';
 
 function HomePage() {
   return (
@@ -51,10 +52,16 @@ function HomePage() {
     <img src="./indoor.jpg" alt="indoor" />
     <h2>Indoor Plants</h2>
   </a>
-  
-
 </div>
-
+<div className="additional-content">
+        <div className="container">
+          <h2>Featured Products</h2>
+          <p>Use these paragraphs to focus on the topic in the headline. Make sure you keep it short and attractive.</p>
+          <button>View All Plants</button>
+          </div>
+        
+        </div>
+        <Footer/>
 </div>
 
   )

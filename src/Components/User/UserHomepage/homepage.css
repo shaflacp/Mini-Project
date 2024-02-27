@@ -99,16 +99,64 @@ h1 {
 .plants-container img {
   max-width: 100%;
   border-radius: 5px;
+  margin-top: 100px;
 }
 
 .plants-container h2 {
-  margin-top: 10px; /* Adjust the distance between image and heading */
+  margin-top: 80px; /* Adjust the distance between image and heading */
   position: relative;
   color: black;
   
 }
 
 .bonsai img{
-  margin-top: -1px;
+  margin-top: 100px;
   height: 290px;
 }
+.additional-content {
+  margin-top: 50px; /* Adjust as needed */
+  background-color: #f9f9f9;
+  padding: 10px;
+   /* Align content to the left */
+}
+
+.additional-content .container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-left: -10%;
+}
+
+.additional-content h2 {
+  font-size: 52px;
+  color: #333;
+  padding: -10px;
+  margin-top: -270px;
+}
+
+.additional-content p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: left; /* Align paragraphs to the left */
+  margin: 0 auto;
+  margin-left: 180px;
+}
+
+.additional-content button {
+  padding: 10px 20px;
+  background-color: rgb(54, 156, 197);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: right; /* Align button to the right */
+  margin: 0 auto;
+  margin-right: -500px;
+}
+
+.additional-content button:hover {
+  background-color: #45a049;
+}
+
+
