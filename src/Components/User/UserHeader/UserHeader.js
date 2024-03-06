@@ -7,10 +7,10 @@ const UserHeader = () => {
     <nav className="user-header">
       <h1>The Boutique Store For Plants!</h1> {/* Added side heading */}
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Login</a></li>
-        <li><a href="#">Signup</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/user/shop">Shop</a></li>
+        <li><a href="/user/login">Login</a></li>
+        <li><a href='/user/signup'>Signup</a></li>
 
       </ul>
     </nav>

@@ -1,17 +1,21 @@
-import './App.css';
-import Loginpage from './Components/User/UserLoginPage/Loginpage';
-// import HomePage from './Components/User/UserHomepage/Homepage';
-
+import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import UserRouter from './Router/UserRouter'
+// import AdminRouter from './Router/AdminRouter'
 
 function App() {
   return (
-<div className="App">
-  
-  {/* <HomePage/> */}
-  <Loginpage/>
-  
+    <div>
+     <BrowserRouter>
+     <Routes>
+     <Route path='/*' element ={<UserRouter/>}/>
+     {/* <Route path='/admin/*' element ={<AdminRouter/>}/> */}
+
+
+     </Routes>
+     </BrowserRouter> 
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -39,6 +39,7 @@ h1 {
   border-radius: 5px;
   font-size: 1rem;
   cursor: pointer;
+  width: 150px;
   z-index: 1; /* Ensure the button is above the image */
   transition: background-color 0.3s ease;
 }
@@ -124,6 +125,9 @@ h1 {
   max-width: 800px;
   margin: 0 auto;
   margin-left: -10%;
+}
+.btn{
+  width: 150px;
 }
 
 .additional-content h2 {

@@ -1,11 +1,13 @@
 import React from 'react'
-// import UserHeader from '../../Components/User/UserHeader/UserHeader'
+import UserHeader from '../../Components/User/UserHeader/UserHeader'
+import HomePage from '../../Components/User/UserHomepage/Homepage'
 
 
 function UserHome() {
   return (
     <div>
-        {/* <UserHeader/> */}
+        <UserHeader/>
+        <HomePage/>
 
     </div>
   )

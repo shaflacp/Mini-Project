@@ -1,0 +1,39 @@
+/* Header.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .left {
+    flex: 1;
+  }
+  
+  .right {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .ecommerce-admin {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .logout-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  .logout-button:hover {
+    background-color: #d32f2f;
+  }
+  

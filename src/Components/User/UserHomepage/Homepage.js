@@ -57,7 +57,7 @@ function HomePage() {
         <div className="container">
           <h2>Featured Products</h2>
           <p>Use these paragraphs to focus on the topic in the headline. Make sure you keep it short and attractive.</p>
-          <button>View All Plants</button>
+          <button className='btn'> View All Plants</button>
           </div>
         
         </div>

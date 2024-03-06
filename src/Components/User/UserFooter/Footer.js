@@ -14,7 +14,7 @@ function Footer() {
           <h2>Get In Touch</h2>
           <ul>
             <li><a href="/">HOME</a></li>
-            <li><a href="/user/contact">CONTACT</a></li>
+            <li><a href="/user/shop">SHOP</a></li>
             <li><a href="/user/login">LOGIN</a></li>
             <li><a href="/user/signup">SIGNUP</a></li>
           </ul>
@@ -23,7 +23,7 @@ function Footer() {
           <h2>Contact Us</h2>
           <form action="#">
             <p>123 Jewelry Street, Cityville</p>
-            <p>Email: classicglory@example.com</p>
+            <p>Email: planty@example.com</p>
             <p>Phone: 123-456-7890</p>
 
           </form>

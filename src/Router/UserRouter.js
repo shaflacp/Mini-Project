@@ -1,24 +1,22 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import UserLoginPage from './pages/User/UserLoginPage';
-import UserSignupPage from './pages/User/UserSignupPage';
-import UserHomepagePage from './pages/User/UserHomepagePage';
-import ProductDetailsPage from './pages/User/ProductDetailsPage';
-import CartPage from './pages/User/CartPage';
+import { Routes, Route} from 'react-router-dom';
+import UserSignup from '../Pages/User/UserSignup';
+import UserLogin from '../Pages/User/UserLogin';
+import UserHome from '../Pages/User/UserHome';
 
 
 function UserRouter() {
   return (
-    <Router>
-    <Switch>
-      <Route path="/user/login" component={UserLoginPage} />
-      <Route path="/user/signup" component={UserSignupPage} />
-      <Route path="/user/home" component={UserHomepagePage} />
-      <Route path="/product/:productId" component={ProductDetailsPage} />
-      <Route path="/cart" component={CartPage} />
-    </Switch>
-  
-  </Router>
+
+    <div>
+    <Routes>
+    <Route path="/" element={<UserHome/>} />
+
+      <Route path="/user/login" element={<UserLogin/>} />
+      <Route path="/user/signup" element={<UserSignup/>} />
+   
+  </Routes>
+  </div>
 );
 }
   
