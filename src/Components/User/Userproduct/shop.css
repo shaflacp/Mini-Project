@@ -1,0 +1,79 @@
+.body{
+    background-color: white;
+    margin-top: -70px;
+    position: relative;
+}
+
+.item-container {
+    background-color:white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+    margin-top: 90px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+  .necklaces-heading{
+    font-size: 40px;
+    font-weight: 400;
+  align-items: center;
+    font-family: "Abril Fatface", serif;
+    color: #255625;
+    margin-top:120px;
+    margin-left: 390px;
+    justify-self: center;
+    letter-spacing: 11px;
+  }
+  
+  
+  .item img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+
+  }
+  
+  .item h3 {
+    margin-top: 10px;
+    color: #8b6e55;
+    margin-bottom: 5px;
+    font-size: 15px;
+    margin-left: 100px;
+    
+  }
+  
+  .item p {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #8b6e55;
+    margin-left: 130px;
+    margin-top: -2px;
+
+
+  }
+  
+  .item p.price {
+    font-weight: bold;
+    color: #8b6e55;
+    margin-left: 40px;
+
+  }
+  
+  .item button {
+    display: block;
+    margin-top: 13px;
+    padding: 10px 10px;
+    margin-left: -1%;
+    color: #255625;
+    color: white;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+  }
+  
+  .item button:hover {
+    background-color: #68513e;;
+  }

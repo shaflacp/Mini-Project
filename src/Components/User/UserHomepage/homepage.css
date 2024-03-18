@@ -104,9 +104,10 @@ h1 {
 }
 
 .plants-container h2 {
-  margin-top: 80px; /* Adjust the distance between image and heading */
-  position: relative;
+  margin-top: 30px; /* Adjust the distance between image and heading */
+ margin-left: 30%;
   color: black;
+  content: none;
   
 }
 

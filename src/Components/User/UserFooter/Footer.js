@@ -22,7 +22,7 @@ function Footer() {
         <div className="footer-section contact-form">
           <h2>Contact Us</h2>
           <form action="#">
-            <p>123 Jewelry Street, Cityville</p>
+            <p>123 planitery Street, Cityville</p>
             <p>Email: planty@example.com</p>
             <p>Phone: 123-456-7890</p>
 

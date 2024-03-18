@@ -1,0 +1,42 @@
+.admin-home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10%;
+  }
+  
+  .order-table th, .order-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .order-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .order-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .order-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  .order-table button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .order-table button:hover {
+    background-color: #0056b3;
+  }
+  
